@@ -1,0 +1,87 @@
+ Maksymilian Zakrzewski, 3 quick games
+
+
+1. Wymagania wstępne:
+Zainstaluj Python 3.12 z oficjalnej strony python.org
+Zainstaluj wymagane biblioteki:
+
+pip install pygame
+pip install pytest
+
+2. Struktura plików:
+
+Projekt/
+├── Assets/
+│   └── hangman_data.txt
+│	 └── scores.json (utworzy się automatycznie)
+├── Project.py
+└── Tests.py
+
+3. Uruchomienie programu:
+
+python Project.py
+
+4. Sterowanie:
+
+Klikaj myszą w przyciski menu
+
+W grze Hangman wprowadzaj litery z klawiatury
+
+W Tic Tac Toe klikaj w kratki planszy
+
+W Game of Life klikaj, aby tworzyć komórki i używaj przycisku "Start"
+
+Wnioski i poprawki:
+
+Naprawione błędy:
+
+Ujednolicono nazwy funkcji między testami a implementacją
+
+Poprawiono strukturę importów
+
+Optymalizacje:
+
+Zastosowano animowany gradient w tle
+
+Dodano efekty dźwiękowe dla przycisków (wymagają plików .wav)
+
+Wprowadzono system zapisywania wyników w formacie JSON
+
+
+
+Znane ograniczenia:
+
+Brak obsługi sieciowej w Tic Tac Toe
+
+Prosta implementacja Game of Life bez zaawansowanych wzorców
+
+Podstawowa walidacja danych wejściowych
+
+
+Podsumowanie:
+
+- Program stanowi kompleksową platformę gier z interfejsem graficznym, implementującą:
+
+System menu z animacjami
+
+Mechanikę 3 różnych gier
+
+Zapis wyników i statystyk
+
+Responsywny interfejs użytkownika
+
+- Główne zalety:
+
+Przejrzysta struktura kodu
+
+Modularność łatwa do rozbudowy
+
+Atrakcyjna wizualnie prezentacja
+
+- Obszary do poprawy:
+
+Dodanie testów jednostkowych
+
+Implementacja systemu trudności
+
+Rozbudowa dokumentacji

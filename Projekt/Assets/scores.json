@@ -1,0 +1,63 @@
+{
+    "Hangman": [
+        {
+            "time": 4.9001381397247314,
+            "result": "Loss",
+            "timestamp": "2025-01-30 20:27:21"
+        },
+        {
+            "time": 4.479207277297974,
+            "result": "Loss",
+            "timestamp": "2025-01-30 20:39:49"
+        },
+        {
+            "time": 4.621822118759155,
+            "result": "Loss",
+            "timestamp": "2025-01-30 20:59:01"
+        },
+        {
+            "time": 89.13026332855225,
+            "result": "Loss",
+            "timestamp": "2025-01-30 23:20:18"
+        },
+        {
+            "time": 40.207690477371216,
+            "result": "Win",
+            "timestamp": "2025-01-30 23:20:58"
+        },
+        {
+            "time": 75.25613737106323,
+            "result": "Loss",
+            "timestamp": "2025-01-30 23:22:14"
+        }
+    ],
+    "Tic Tac Toe": [
+        {
+            "time": 82.4535002708435,
+            "result": "O Wins",
+            "timestamp": "2025-01-30 23:15:25"
+        }
+    ],
+    "Game of Life": [
+        {
+            "time": 125.76003003120422,
+            "result": "Simulation Ended",
+            "timestamp": "2025-01-30 23:18:05"
+        },
+        {
+            "time": 36.63281798362732,
+            "result": "Simulation Ended",
+            "timestamp": "2025-01-30 23:18:43"
+        },
+        {
+            "time": 4.583230257034302,
+            "result": "Simulation Ended",
+            "timestamp": "2025-01-30 23:18:49"
+        },
+        {
+            "time": 59.80563259124756,
+            "result": "Simulation Ended",
+            "timestamp": "2025-01-30 23:23:34"
+        }
+    ]
+}
